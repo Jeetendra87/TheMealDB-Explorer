@@ -179,21 +179,7 @@ npm test
 - Backend: cache behavior, transformers, route integration (mocked upstream API)
 - Frontend: component rendering tests
 
-## Screenshots
 
-Add screenshots after running locally:
-
-1. Home search + hero
-2. Category grid
-3. Recipe details page
-4. Random meal modal
-5. Favorites page in dark mode
-
-Suggested paths:
-
-- `docs/screenshots/home.png`
-- `docs/screenshots/categories.png`
-- `docs/screenshots/details.png`
 
 ## Architecture Notes
 
@@ -203,15 +189,8 @@ Suggested paths:
 - **Frontend state**: Zustand persist store for theme, favorites, and recent searches.
 - **Performance**: route-level lazy loading, debounced search, memoized pagination slices, image lazy loading.
 
-## Future Improvements
 
-- Redis-backed distributed cache for multi-instance deployments
-- Server-side pagination for very large result sets
-- User accounts + cloud-synced favorites
-- Observability stack (OpenTelemetry, structured logs, metrics)
-- E2E tests with Playwright
-- PWA offline support for saved favorites
 
-## License
 
-MIT
+
+
